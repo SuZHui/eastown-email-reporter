@@ -1,0 +1,23 @@
+{
+  "name": "eastown-email-reporter",
+  "version": "0.0.1",
+  "main": "main.ts",
+  "repository": "https://github.com/SuZHui/eastown-email-reporter.git",
+  "author": "suzh <szh362680581@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/nodemailer": "^4.6.7",
+    "typescript": "^3.4.1"
+  },
+  "scripts": {
+	"dev": "tsc -w",
+	"sendEmail": "node ./dist/main"
+  },
+  "dependencies": {
+    "nodemailer": "^6.0.0"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "engineStrict": true
+}
