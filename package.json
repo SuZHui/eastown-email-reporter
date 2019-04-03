@@ -6,14 +6,16 @@
   "author": "suzh <szh362680581@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@types/ejs": "^2.6.3",
     "@types/nodemailer": "^4.6.7",
     "typescript": "^3.4.1"
   },
   "scripts": {
-	"dev": "tsc -w",
-	"sendEmail": "node ./dist/main"
+    "dev": "tsc -w",
+    "sendEmail": "node ./dist/main"
   },
   "dependencies": {
+    "ejs": "^2.6.1",
     "nodemailer": "^6.0.0"
   },
   "engines": {

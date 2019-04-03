@@ -1,4 +1,5 @@
 import { createTransport, Transporter, SendMailOptions } from 'nodeMailer';
+import { config } from './config';
 
 export class EmailSender {
 	private transporter: Transporter;
@@ -9,8 +10,8 @@ export class EmailSender {
 			port: 465,
 			secure: true,
 			auth: {
-				user: 'szh362680581@qq.com',
-				pass: 'fwbejlnmqvqpbied'
+				user: config.email.user,
+				pass: config.email.pass
 			}
 		});
 	}

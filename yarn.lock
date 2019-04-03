@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@types/ejs@^2.6.3":
+  version "2.6.3"
+  resolved "http://npm.zymreal.com/@types%2fejs/-/ejs-2.6.3.tgz#b6509e9925d7eb5e95c8c73b6492e5baae7c1e6a"
+  integrity sha1-tlCemSXX616VyMc7ZJLluq58Hmo=
+
 "@types/node@*":
   version "11.13.0"
   resolved "http://npm.zymreal.com/@types%2fnode/-/node-11.13.0.tgz#b0df8d6ef9b5001b2be3a94d909ce3c29a80f9e1"
@@ -13,6 +18,11 @@
   integrity sha1-rDxZT6xtr39x600xyeTIi2Lby4c=
   dependencies:
     "@types/node" "*"
+
+ejs@^2.6.1:
+  version "2.6.1"
+  resolved "http://npm.zymreal.com/ejs/-/ejs-2.6.1.tgz#498ec0d495655abc6f23cd61868d926464071aa0"
+  integrity sha1-SY7A1JVlWrxvI81hho2SZGQHGqA=
 
 nodemailer@^6.0.0:
   version "6.0.0"
